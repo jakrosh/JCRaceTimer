@@ -43,7 +43,7 @@ public class DataInputFrame {
 		frame.getContentPane().setLayout(null);
 		
 		JButton btnNewButton = new JButton("Next");
-		btnNewButton.setBounds(165, 179, 89, 23);
+		btnNewButton.setBounds(335, 227, 89, 23);
 		frame.getContentPane().add(btnNewButton);
 		
 		textField = new JTextField();
@@ -54,5 +54,9 @@ public class DataInputFrame {
 		JTextPane textPane = new JTextPane();
 		textPane.setBounds(149, 11, 105, 30);
 		frame.getContentPane().add(textPane);
+		
+		JButton btnNewButton_1 = new JButton("Previous");
+		btnNewButton_1.setBounds(10, 227, 89, 23);
+		frame.getContentPane().add(btnNewButton_1);
 	}
 }
