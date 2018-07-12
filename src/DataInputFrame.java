@@ -52,11 +52,16 @@ public class DataInputFrame {
 		textField.setColumns(10);
 		
 		JTextPane textPane = new JTextPane();
-		textPane.setBounds(149, 11, 105, 30);
+		textPane.setBounds(149, 53, 105, 30);
 		frame.getContentPane().add(textPane);
 		
 		JButton btnNewButton_1 = new JButton("Previous");
 		btnNewButton_1.setBounds(10, 227, 89, 23);
 		frame.getContentPane().add(btnNewButton_1);
+		
+		JTextPane txtpnClickInThe = new JTextPane();
+		txtpnClickInThe.setText("Click in the box below to start recording barcodes");
+		txtpnClickInThe.setBounds(95, 105, 243, 20);
+		frame.getContentPane().add(txtpnClickInThe);
 	}
 }
