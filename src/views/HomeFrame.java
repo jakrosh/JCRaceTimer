@@ -12,7 +12,7 @@ import javax.swing.UIManager;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-public class DataInputFrame {
+public class HomeFrame {
 
 	private JFrame frmJcracetimer;
 	private JTextField txtLinkUrl;
@@ -29,7 +29,7 @@ public class DataInputFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					DataInputFrame window = new DataInputFrame();
+					HomeFrame window = new HomeFrame();
 					window.frmJcracetimer.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -41,7 +41,7 @@ public class DataInputFrame {
 	/**
 	 * Create the application.
 	 */
-	public DataInputFrame() {
+	public HomeFrame() {
 		initialize();
 	}
 
